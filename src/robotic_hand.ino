@@ -82,7 +82,7 @@ void loop(){
 				}
 			}
 			// once the calibration phase is finished, set the corresponding flag and make the buzzer sound twice
-			for (i=0; i<2; i++) BuzzerSound();
+			for (i = 0; i < 2; i++) BuzzerSound();
 			set = true;
 		}
 		// if the sensors have already been calibrated
